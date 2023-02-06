@@ -1,0 +1,6 @@
+fastapi
+pytest
+pytest-cov
+pylint
+black
+fire

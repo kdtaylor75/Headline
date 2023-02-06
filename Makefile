@@ -1,11 +1,12 @@
 install:
-    # install commands
+	python -m pip install --upgrade pip
+	pip install -r requirements.txt
 format:
-	# format code
+	# format stuff
 lint:
-	# check that code has proper syntax using flake8 or pylint
+	# lint stuff
 test:
-	# test steps
+	# test stuff
 deploy:
-	# deploy steps
+	# deploy stuff
 all: install lint test deploy
