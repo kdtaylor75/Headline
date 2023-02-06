@@ -1,6 +1,7 @@
-fastapi
-pytest
-pytest-cov
-pylint
-black
-fire
+fastapi==0.89.1
+pytest==7.2.1
+pytest-cov==4.0.0
+pylint==2.16.1
+black==23.1.0
+fire==0.5.0
+uvicorn==0.20.0
