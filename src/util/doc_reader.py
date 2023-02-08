@@ -47,14 +47,3 @@ class PDFDocument:
 
     def splitter(self):
         pass
-
-if __name__ == '__main__':
-    filepath = r'D:\Python\ATSTS\data\Kris Taylor - Resume.pdf'
-    doc = PDFDocument(filepath=filepath)
-    doc.meta_data()
-    doc.extract_first()
-    doc.extract_whole()
-    doc.rotation_check()
-    doc.rotate_back()
-    doc.merger()
-    doc.splitter()
